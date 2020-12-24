@@ -1,0 +1,111 @@
+
+.error {
+    color: red;
+}
+
+*{
+    font-family: 'Montsserrat', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ebecf1;
+    color: #b3b9b9;
+    font-size: unset;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.view-item img {
+    width: 115px;
+    height: 80px;
+}
+
+.ajde {
+    min-height: 200px;
+} 
+
+.view-main {
+    background: #fff;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.view-item .title {
+    font-weight: 600;
+}
+
+.view-item .content {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 200;
+}
+
+.view-item .btn {
+    width: 125px;
+    background: #4abd3e;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px 5px;
+    text-align: center;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.view-item .btn:hover {
+    background: #3bd62b;
+}
+
+.grid-view {
+    width: 100%;
+}
+
+.grid-view .view-item {
+    width: 230px;
+    border: 1px solid #e2efe1;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+}
+
+.grid-view .view-item .vi-left {
+    margin-bottom: 10px;
+}
+
+.grid-view .view-item .btn {
+    margin: 0 auto;
+}
+
+.view-comments .view-item {
+    border: 1px solid #e2efe2;
+    margin: 10px;
+    align-items: center;
+}
+
+.view-comment {
+    width: 100%;
+    margin: 10px;
+    border: 1px solid #e2efe1;
+    min-height: 100px;
+} 
+
+.comment-sender {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.time {
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
