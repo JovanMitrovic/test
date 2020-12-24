@@ -1,0 +1,8 @@
+Instruction:
+
+-in the sql folder you have a file that contains the sql query for creating the database
+
+-to use the user to login as an administrator:
+
+USER: admin@admin.com
+PASSWORD: test123
